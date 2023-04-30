@@ -255,7 +255,7 @@ footer {
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 150px 5% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
@@ -268,6 +268,14 @@ footer {
     color: #fafafa;
     margin-bottom: 20px;
 }
+
+h2 {
+    display: inline;
+
+
+}
+
+
 
 .text-input {
     background: transparent;
