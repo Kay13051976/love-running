@@ -171,6 +171,7 @@ hr {
     margin: 20px;
     font-size: 280%;
 }
+
 #club-ethos p {
     text-align: center;
     margin: 20px;
@@ -319,6 +320,14 @@ footer {
 
 /* Media queries */
 /* For larger to medium screens size form 1200px wide and down */
+@media screen and (min_width:576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+
 @media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
@@ -399,7 +408,7 @@ footer {
     }
 
     #photos {
-        column-count: 3;
+        column-count: 4;
     }
 }
 
