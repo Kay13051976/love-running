@@ -15,7 +15,7 @@ body {
 }
 
 /* headings and logo */
-h1,
+#logo,
 h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
