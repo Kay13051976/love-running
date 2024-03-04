@@ -278,6 +278,9 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+.social-networks i:hover {
+    color:  #ccc;
+}
 
 #photos {
     clear: both;
