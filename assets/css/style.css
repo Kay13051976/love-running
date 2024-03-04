@@ -21,6 +21,7 @@ body {
 /* Headings and logo */
 
 #logo {
+    padding-top: 10px;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     float: left;
@@ -31,6 +32,30 @@ body {
     color: #252525;
 }
 
+/* Nav toggle */
+/* nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+} */
+
+/* #nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+} */
+
 h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -38,10 +63,11 @@ h2 {
     letter-spacing: 4px;
     color: #252525;
 }
+
 .club-ethos-paragraph {
     font-family: Oswald, sans-serif;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     letter-spacing: 2px;
     color: #252525;
 }
@@ -61,40 +87,29 @@ p {
     color: #252525;
 }
 
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-}
-
-#menu,
-#logo {
-    line-height: 75px;
-}
-
-.hidden-heading {
-    display: none;
-}
-
-#menu li {
-    float: right;
     list-style-type: none;
-    margin-right: 30px;
+}
 
+
+
+#menu>li {
+    float: right;
+    margin-right: 30px;
+    margin-top: 1.8em;
 }
 
 #menu a {
     text-decoration: none;
-    color: inherit;
 }
 
 #menu a:hover {
     color: #000000;
     border-bottom: 1px solid #3a3a3a;
 }
-
-/* .active {
-    border-bottom: 1px solid #3a3a3a;
-} */
 
 /* Hero image */
 #hero-outer {
@@ -227,6 +242,10 @@ hr {
     border-radius: 50%;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* event times */
 #times {
     background: url("../images/dublin-city.webp");
@@ -278,8 +297,9 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
 .social-networks i:hover {
-    color:  #ccc;
+    color: #ccc;
 }
 
 #photos {
