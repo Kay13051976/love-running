@@ -1,35 +1,56 @@
+/* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Great+Vibes&family=Lato:wght@300&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+/* General styles */
 body {
-    font-family: Arial;
-    font-family: 'Lato', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     color: #3a3a3a;
-
+    font-family: 'Lato', sans-serif;
 }
 
-/* headings and logo */
-
-h2 {
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #252525;
-}
+/* Headings and logo */
 
 #logo {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     float: left;
     font-size: 280%;
+    font-weight: 800;
     margin-left: 30px;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
     letter-spacing: 4px;
+    color: #252525;
+}
+
+h3 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+p {
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
     color: #252525;
 }
 
@@ -41,6 +62,10 @@ h2 {
 #menu,
 #logo {
     line-height: 75px;
+}
+
+.hidden-heading {
+    display: none;
 }
 
 #menu li {
@@ -63,7 +88,7 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image */
+/* Hero image */
 #hero-outer {
     min-height: 600px;
     width: 100%;
@@ -221,6 +246,10 @@ hr {
     color: #fafafa;
 }
 
+#times h3 {
+    color: #fafafa;
+}
+
 footer {
     height: 150px;
 }
@@ -360,6 +389,7 @@ footer {
         width: 300px;
         right: 50px;
     }
+
     #benefits-physical,
     #benefits-direction {
         display: flex;
@@ -367,12 +397,12 @@ footer {
         width: 100%;
     }
 
-    #benefits-physical > div,
-    #benefits-mental > div {
+    #benefits-physical>div,
+    #benefits-mental>div {
         width: 75%;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         text-align: end;
         align-self: flex-end;
     }
@@ -407,7 +437,7 @@ footer {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 
@@ -417,14 +447,15 @@ footer {
     }
 }
 
-@media screen and (min-width: 1200px) {    
+@media screen and (min-width: 1200px) {
+
     /* Reasons section */
     #benefits {
         display: flex;
         flex-direction: row;
     }
 
-    #benefits > div {
+    #benefits>div {
         flex: 1;
     }
 
@@ -436,11 +467,11 @@ footer {
         order: 1;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         align-self: flex-start;
     }
 
-    #benefits-physical > div {
+    #benefits-physical>div {
         align-self: flex-end;
     }
 }
