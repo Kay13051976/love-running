@@ -16,62 +16,74 @@
 <body>
 
     <body>
+        <!-- Header -->
         <header><a href="index.html">
                 <h1 id="logo">Love Running</h1>
             </a>
             <nav>
                 <ul id="menu">
-                    <li><a href="index.html">Sign Up
-
-                        </a></li>
-                    <li><a href="gallery.html" class="active>Gallery">
-
-                            Gallery</a></li>
                     <li>
-                        <a href="index.html" class="active">Home
-
-                        </a>
+                        <a href="signup.html" class="active" aria-label="Visit our sign-up page (open in a same tab)">Sign
+                            Up</a>
                     </li>
+                    <li>
+                        <a href="gallery.html" class="active"
+                            aria-label="Visit our gallery page (open in a same tab)">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="active" aria-label="Visit our home page (open in a same tab)">Home</a>
+                    </li>
+    
                 </ul>
             </nav>
-
-
         </header>
-        <section class="form-section">
-            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-                <h2>Let's get you signed up! <i class="fa-solid fa-heart-pulse"></i></h2>
-                <label for="fname">First Name</label>
-                <input class="text-input" type="text" id="fname" name="first_name" required>
-                <label for="lname">Last Name</label>
-                <input class="text-input" id="lname" nane="last_name" type="text" required>
-                <label for="email">Email Address</label>
-                <input class="text-input" id="email" mane="email_address" type="email" required>
-                <label for="road">Road</label>
-                <input type="radio" id="road" name="running_preference" value="road" required>
-                <label for="trail">Trail</label>
-                <input type="radio" id="trail" name="running_preference" value="trail" required>
-                <label for="both">Both</label>
-                <input type="radio" id="both" name="running_preference" value="both" required>
 
-                <input class="join-button" type="submit" value="Let's Run!">
-            </form>
-        </section>
-
+        <!-- Main centent -->
+        <main>
+            <section class="form-section">
+                <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                    <h2>Let's get you signed up! <i class="fa-solid fa-heart-pulse"></i></h2>
+                    <label for="fname">First Name</label>
+                    <input class="text-input" type="text" id="first_name" name="first_name" required>
+                    <br>
+                    <label for="lname">Last Name</label>
+                    <input class="text-input" id="last_name" nane="last_name" type="text" required>
+                    <br>
+                    <label for="email">Email Address</label>
+                    <input class="text-input" id="email" mane="email_address" type="email" required>
+                    <br>
+                    <div>
+                        <div>
+                            <label for="road">Road</label>
+                            <input type="radio" id="road" name="running_preference" value="road" required checked>
+                        </div>
+                        <div>
+                            <label for="trail">Trail</label>
+                            <input type="radio" id="trail" name="running_preference" value="trail" required>
+                        </div>
+                        <div>
+                            <label for="both">Both</label>
+                            <input type="radio" id="both" name="running_preference" value="both" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="join-button">Let's Run</button>
+                </form>
+            </section>
+        </main>
+        <!-- Footer -->
         <footer>
             <ul class="social-networks">
                 <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                        aria-label="visit our facebook page (open in new tap)"><i class="fa-brands fa-facebook"></i></a>
+                        aria-label="visit our Facebook page (open in new tap)"><i class="fa-brands fa-facebook"></i></a>
                 </li>
                 <li><a href="https://twitter.com/home" target="_blank" rel="noopener"
-                        aria-label="visit our facebook page (open in new tap)"><i
-                            class="fa-brands fa-square-twitter"></i></a>
+                        aria-label="visit our Twitter page (open in new tap)"><i class="fa-brands fa-square-twitter"></i></a>
                 </li>
                 <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                        aria-label="visit our facebook page (open in new tap)"><i class="fa-brands fa-youtube"></i></a>
+                        aria-label="visit our YouTube page (open in new tap)"><i class="fa-brands fa-youtube"></i></a>
                 </li>
                 <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                        aria-label="visit our facebook page (open in new tap)"><i
-                            class="fa-brands fa-instagram"></i></a>
+                        aria-label="visit our Instagram page (open in new tap)"><i class="fa-brands fa-instagram"></i></a>
                 </li>
 
             </ul>
