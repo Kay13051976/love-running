@@ -347,9 +347,9 @@ footer {
 .signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
-    padding-bottom: 15x;
+    /* padding-bottom: 15x; */
     margin-right: 0;
-    font-display: inline;
+    /* font-display: inline; */
     white-space: nowrap;
 }
 
@@ -408,7 +408,7 @@ footer {
     }
 
     #menu>li {
-        padding-left: none;
+        padding-left: 1rem;
     }
 
     #logo {
