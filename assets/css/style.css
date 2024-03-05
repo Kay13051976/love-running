@@ -64,13 +64,7 @@ h2 {
     color: #252525;
 }
 
-.club-ethos-paragraph {
-    font-family: Oswald, sans-serif;
-    font-weight: 400;
-    font-size: 1.3rem;
-    letter-spacing: 2px;
-    color: #252525;
-}
+
 
 h3 {
     font-family: Oswald, sans-serif;
@@ -93,8 +87,11 @@ p {
     letter-spacing: 4px;
     list-style-type: none;
 }
-#menu, #logo {
-    line-height: 75px;;
+
+#menu,
+#logo {
+    line-height: 75px;
+    ;
 }
 
 
@@ -113,9 +110,11 @@ p {
     color: #000000;
     border-bottom: 1px solid #3a3a3a;
 }
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 /* Hero image */
 #hero-outer {
     min-height: 600px;
@@ -158,15 +157,15 @@ p {
     letter-spacing: 4px;
     width: 300px;
     height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
+    padding-top: 30px;
+    padding-left: 15px;
     background-color: rgba(241, 109, 107, .7);
     bottom: 30px;
     right: 150px;
     position: absolute;
 }
 
-/* club ethos */
+/* Club ethos */
 #club-ethos {
     height: 600px;
 }
@@ -221,13 +220,21 @@ hr {
 
 #welcome {
     text-align: center;
-    margin: 20px;
+    margin: 20px 0;
     font-size: 280%;
 }
 
 #club-ethos p {
     text-align: center;
     margin: 20px;
+}
+
+.club-ethos-paragraph {
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    color: #252525;
 }
 
 #circle-container {
@@ -251,7 +258,7 @@ hr {
     display: none;
 }
 
-/* event times */
+/* Event times */
 #times {
     background: url("../images/dublin-city.webp");
     background-repeat: no-repeat;
@@ -290,8 +297,6 @@ footer {
     text-align: center
 }
 
-
-
 .social-networks>li {
     display: inline;
 }
@@ -307,12 +312,12 @@ footer {
     color: #ccc;
 }
 
+/* gallery */
 #photos {
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
-
 }
 
 #photos>img {
@@ -483,36 +488,6 @@ footer {
     }
 }
 
-@media screen and (min-width: 1200px) {
-
-    /* Reasons section */
-    #benefits {
-        display: flex;
-        flex-direction: row;
-    }
-
-    #benefits>div {
-        flex: 1;
-    }
-
-    #benefits-image {
-        order: 0
-    }
-
-    #benefits-mental {
-        order: 1;
-    }
-
-    #benefits-mental>div {
-        align-self: flex-start;
-    }
-
-    #benefits-physical>div {
-        align-self: flex-end;
-    }
-}
-
-
 @media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
@@ -553,7 +528,7 @@ footer {
 
 }
 
-/* For medium sceeen sizes from 950px wide and down */
+/* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
     #menu {
