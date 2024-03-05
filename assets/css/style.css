@@ -326,11 +326,12 @@ footer {
 
 /* form */
 .form-section {
-    clear: left;
     background: url("../images/signup-image.webp");
     background-size: cover;
-    background-position: center;
+    background-position: 75%;
     height: 900px;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
 }
 
 .signup-form {
@@ -351,10 +352,6 @@ footer {
     font-display: inline;
     white-space: nowrap;
 }
-
-
-
-
 
 .text-input {
     background: transparent;
