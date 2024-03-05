@@ -25,10 +25,10 @@ body {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     float: left;
-    font-size: 290%;
+    font-size: 280%;
     font-weight: 600;
     margin-left: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     color: #252525;
 }
 
@@ -93,7 +93,9 @@ p {
     letter-spacing: 4px;
     list-style-type: none;
 }
-
+#menu, #logo {
+    line-height: 75px;;
+}
 
 
 #menu>li {
@@ -104,13 +106,16 @@ p {
 
 #menu a {
     text-decoration: none;
+    color: inherit;
 }
 
 #menu a:hover {
     color: #000000;
     border-bottom: 1px solid #3a3a3a;
 }
-
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
 /* Hero image */
 #hero-outer {
     min-height: 600px;
@@ -134,7 +139,7 @@ p {
     animation-fill-mode: forwards;
 }
 
-/* creates the levellf zoom for hero image */
+/* creates the level zoom for hero image */
 
 @keyframes hero-zoom {
     from {
