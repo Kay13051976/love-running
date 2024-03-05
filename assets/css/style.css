@@ -32,8 +32,8 @@ body {
     color: #252525;
 }
 
-/* Nav toggle */
-/* nav {
+/* Nav toggle  */
+nav {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
@@ -42,9 +42,9 @@ body {
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-} */
+} 
 
-/* #nav-toggle:checked~nav {
+#nav-toggle:checked~nav {
     display: block;
 }
 
@@ -54,7 +54,7 @@ body {
 
 .nav-toggle-label {
     font-size: 2rem;
-} */
+}
 
 h2 {
     font-family: Oswald, sans-serif;
