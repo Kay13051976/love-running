@@ -384,7 +384,7 @@ footer {
 
 /* Media queries start here */
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:576px) {
     #photos {
         column-count: 2;
         column-gap: 0;
@@ -393,21 +393,22 @@ footer {
 
 
 @media screen and (min-width:768px) {
-    nav {
+    /* nav {
         display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-    }
+    } */
 
-    #menu {
+    /* #menu {
         display: flex;
-    }
+    } */
 
     #menu>li {
         padding-left: 1rem;
     }
+
     .nav-toggle-label {
         display: none;
     }
@@ -421,7 +422,7 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-         margin-top: 79px;
+        margin-top: 79px;
     }
 
     /* Hero */
@@ -449,9 +450,9 @@ footer {
     }
 
     /* Gallery */
-    #photos {
+    /* #photos {
         column-count: 3;
-    }
+    } */
 
     /* Form */
     .form-section {
@@ -476,6 +477,7 @@ footer {
     }
 
 }
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
@@ -485,8 +487,9 @@ footer {
     /* Gallery */
     #photos {
         column-count: 4;
-    } 
+    }
 }
+
 /* For larger to medium screens size form 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #club-ethos {
@@ -530,13 +533,13 @@ footer {
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
-    #menu {
+    /* #menu {
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
-    }
+    } */
 
     #cover-text {
         left: 0;
@@ -564,9 +567,5 @@ footer {
     .right-about-heading p {
         text-align: center;
         padding: 0 20px
-    }
-
-    #photos {
-        column-count: 4;
     }
 }
