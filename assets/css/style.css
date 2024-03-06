@@ -33,7 +33,7 @@ body {
 }
 
 /* Nav toggle  */
- /* nav {
+/* nav {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
@@ -346,9 +346,7 @@ footer {
 .signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
-    /* padding-bottom: 15x; */
     margin-right: 0;
-    /* font-display: inline; */
     white-space: nowrap;
 }
 
@@ -572,10 +570,3 @@ footer {
         column-count: 4;
     }
 }
-
-/* For small screen sizes 800px and down */
-/* @media screen and (max-width:800px) {
-    #photos {
-        column-count: 2;
-    }
-} */
