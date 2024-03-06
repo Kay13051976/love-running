@@ -385,20 +385,16 @@ footer {
 }
 
 /* Media queries start here */
-@media screen and (max-width:800px) {
-    #photos {
-        column-count: 2;
-    }
-}
 
-/* @media screen and (min-width:576px) {
+@media screen and (max-width:480px) {
     #photos {
         column-count: 2;
         column-gap: 0;
     }
-}  */
+}
 
-/* @media screen and (min-width:768px) {
+
+@media screen and (min-width:768px) {
     nav {
         display: block;
         position: relative;
@@ -425,19 +421,19 @@ footer {
     }
 
     /* Main content */
-    /* main { */
+    main {
         /* Push main content down to accommodate larger header */
-        /* margin-top: 79px;
-    } */
+         margin-top: 79px;
+    }
 
     /* Hero */
-    /* #cover-text {
+    #cover-text {
         width: 300px;
         right: 50px;
-    } */
+    }
 
     /* Reasons section */
-    /* #benefits-physical,
+    #benefits-physical,
     #benefits-mental {
         display: flex;
         flex-direction: column;
@@ -452,15 +448,15 @@ footer {
     #benefits-mental>div {
         text-align: end;
         align-self: flex-end;
-    } */
+    }
 
     /* Gallery */
-    /* #photos {
+    #photos {
         column-count: 3;
-    } */
+    }
 
     /* Form */
-    /* .form-section {
+    .form-section {
         background-position: center;
         position: relative;
     }
@@ -479,22 +475,22 @@ footer {
     .join-button:hover {
         background-color: #fafafa;
         color: #454b1b;
-    }  */
+    }
 
-
+}
 /* Large devices (laptops and desktops, 992px and up) */
-/* @media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 
     /* Gallery */
-    /* #photos {
+    #photos {
         column-count: 4;
-    } */
-
+    } 
+}
 /* For larger to medium screens size form 1200px wide and down */
-/* @media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
         height: 1200px;
@@ -531,38 +527,10 @@ footer {
     hr {
         display: none;
     }
-
-} */
-
-/* @media screen and (min-width: 1200px) {
-    #benefits {
-        display: flex;
-        flex-direction: row;
-    }
-
-    #benefits>div {
-        flex: 1;
-    }
-
-    #benefits-image {
-        order: 0;
-    }
-
-    #benefits-mental {
-        order: 1;
-    }
-
-    #benefits-mental>div {
-        align-self: flex-start;
-    }
-
-    #benefits-physical>div {
-        align-self: flex-end;
-    }
-} */
+}
 
 /* For medium screen sizes from 950px wide and down */
-/* @media screen and (max-width: 950px) {
+@media screen and (max-width: 950px) {
 
     #menu {
         clear: left;
@@ -603,7 +571,7 @@ footer {
     #photos {
         column-count: 4;
     }
-} */
+}
 
 /* For small screen sizes 800px and down */
 /* @media screen and (max-width:800px) {
