@@ -42,7 +42,7 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-} 
+}
 
 #nav-toggle:checked~nav {
     display: block;
@@ -410,6 +410,9 @@ footer {
     #menu>li {
         padding-left: 1rem;
     }
+    .nav-toggle-label {
+        display: none;
+    }
 
     #logo {
         font-size: 280%;
@@ -431,7 +434,7 @@ footer {
 
     /* Reasons section */
     #benefits-physical,
-    #benefits-direction {
+    #benefits-mental {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -453,12 +456,12 @@ footer {
     }
 
     /* Form */
-    #signup {
+    .form-section {
         background-position: center;
         position: relative;
     }
 
-    #signup-form {
+    .signup-form {
         max-width: 400px;
         position: absolute;
         left: 10%;
