@@ -32,6 +32,10 @@ body {
     color: #252525;
 }
 
+header #logo:hover {
+color:  #ccc;
+ }
+ 
 /* Nav toggle  */
 /* nav {
     position: absolute;
